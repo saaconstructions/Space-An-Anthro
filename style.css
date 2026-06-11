@@ -105,3 +105,20 @@ footer {
     text-align: center;
     padding: 20px;
 }
+
+/* Social Media */
+
+.social-media{
+    text-align:center;
+    padding:30px;
+}
+
+.social-media h3{
+    margin-bottom:15px;
+}
+
+.social-media a{
+    font-size:40px;
+    color:#E1306C;
+    text-decoration:none;
+}

@@ -153,3 +153,84 @@ footer {
 .gallery img:hover {
     transform: scale(1.05);
 }
+/* Existing CSS */
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.gallery img {
+    width: 280px;
+    height: 200px;
+    object-fit: cover;
+}
+
+/* PASTE EVERYTHING BELOW HERE */
+
+.contact-page {
+    max-width: 900px;
+    margin: 80px auto;
+    padding: 20px 40px;
+}
+
+.contact-box {
+    padding: 40px 0;
+}
+
+.contact-box h2 {
+    color: #0077a6;
+    font-size: 38px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    margin-bottom: 25px;
+}
+
+.contact-box p {
+    font-size: 24px;
+    line-height: 1.8;
+    color: #222;
+}
+
+.contact-box a {
+    color: #222;
+    text-decoration: none;
+}
+
+.contact-box a:hover {
+    color: #0077a6;
+}
+
+.contact-page hr {
+    border: none;
+    border-top: 1px solid #ddd;
+}
+
+.social-media {
+    margin-top: 20px;
+}
+
+.social-media a {
+    font-size: 60px;
+    margin-right: 25px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.social-media a:hover {
+    transform: scale(1.15);
+}
+
+.fa-instagram {
+    color: #E1306C;
+}
+
+.fa-youtube {
+    color: #FF0000;
+}
+
+.fa-facebook {
+    color: #1877F2;
+}

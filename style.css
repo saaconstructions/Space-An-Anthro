@@ -235,12 +235,12 @@ footer {
 
 .fa-facebook {
     color: #1877F2;
-}
+    
 .whatsapp-float {
     position: fixed;
     bottom: 25px;
     right: 25px;
-    font-size: 60px;
+    font-size: 65px;
     color: #25D366;
     text-decoration: none;
     z-index: 9999;

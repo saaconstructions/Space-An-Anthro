@@ -250,16 +250,42 @@ footer {
 .whatsapp-float:hover {
     transform: scale(1.15);
 }
+/* Services Page */
+
+.service-section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.service-section h2 {
+    font-size: 32px;
+    margin-bottom: 15px;
+    color: #222;
+}
+
+.service-section p {
+    max-width: 900px;
+    margin: 0 auto 25px auto;
+    line-height: 1.8;
+    font-size: 18px;
+}
+
 .gallery {
     display: flex;
     flex-wrap: wrap;
-    gap: 15px;
-    margin-bottom: 40px;
+    justify-content: center;
+    gap: 20px;
 }
 
 .gallery img {
     width: 300px;
     height: 220px;
     object-fit: cover;
-    border-radius: 8px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    transition: 0.3s;
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
 }

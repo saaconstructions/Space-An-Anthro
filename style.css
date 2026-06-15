@@ -250,3 +250,16 @@ footer {
 .whatsapp-float:hover {
     transform: scale(1.15);
 }
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 40px;
+}
+
+.gallery img {
+    width: 300px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 8px;
+}
